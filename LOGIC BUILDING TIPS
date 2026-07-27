@@ -1,0 +1,37 @@
+Best Way to Build Logic
+Don't copy code.
+For every problem:
+1. Read the problem.
+2. Write the steps in plain English.
+3. Convert those steps into pseudocode.
+4. Draw a simple flowchart if it helps.
+5. Write the Python code.
+6. Test with different inputs.
+7. Try to improve the solution.
+For example, to find the largest of three numbers:
+Step 1 (English):
+* Read three numbers.
+* Compare the first with the second and third.
+* If it's the largest, print it.
+* Otherwise compare the second and third.
+* Print the larger one.
+Step 2 (Pseudocode):
+INPUT a, b, c
+IF a >= b AND a >= c
+PRINT a
+ELSE IF b >= c
+PRINT b
+ELSE
+PRINT c
+END
+Step 3 (Python):
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+print("Largest:", a)
+elif b >= c:
+print("Largest:", b)
+else:
+print("Largest:", c
